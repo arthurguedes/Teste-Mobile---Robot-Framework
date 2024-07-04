@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-04T17:00:08.044337" rpa="false" schemaversion="5">
+<suite id="s1" name="Calculadora" source="C:\Iterasys\Teste Mobile - Robot Framework\tests\mobile\calculadora.robot">
+<test id="s1-t1" name="Calculo" line="11">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-07-04T17:00:09.329324" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-07-04T17:00:09.328326" elapsed="0.007390">No application is open</status>
+</kw>
+<msg time="2024-07-04T17:00:09.335716" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-07-04T17:00:09.336716" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=Calculator_8.4 (503542421)_APKPure.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2c538ec0]
+</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=Android</arg>
+<arg>appium:platformVersion=9.0</arg>
+<arg>appium:deviceName=Samsung Galaxy S9 FHD GoogleAPI Emulator</arg>
+<arg>appium:deviceOrientation=portrait</arg>
+<arg>appium:app=storage:filename=Calculator_8.4 (503542421)_APKPure.apk</arg>
+<arg>appium:appPackage=com.google.android.calculator</arg>
+<arg>appium:appActivity=com.android.calculator2.Calculator</arg>
+<arg>browserName=</arg>
+<arg>appium:ensureWebviewsHavePages=${True}</arg>
+<arg>appium:nativeWebScreenshot=${True}</arg>
+<arg>appium:newCommandTimeout=${3600}</arg>
+<arg>appium:connectHardwareKeyboard=${True}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2024-07-04T17:00:08.394622" elapsed="0.943091">WebDriverException: Message: Verification failed for: storage:filename=Calculator_8.4 (503542421)_APKPure.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2c538ec0]
+</status>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento1}</var>
+<arg>accessibility_id=10</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.338953" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento1}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.338953" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento2}</var>
+<arg>accessibility_id=plus</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.338953" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento2}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.339949" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento3}</var>
+<arg>accessibility_id=10</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.339949" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento3}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.339949" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento4}</var>
+<arg>accessibility_id=equals</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.339949" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento4}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.340948" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento5}</var>
+<arg>accessibility_id=25</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.340948" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento5}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.340948" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento6}</var>
+<arg>accessibility_id=minus</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.340948" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento6}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.340948" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento7}</var>
+<arg>accessibility_id=15</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.341942" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento7}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.341942" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento8}</var>
+<arg>accessibility_id=equals</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.341942" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento8}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.341942" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento9}</var>
+<arg>accessibility_id=15</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.341942" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento9}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.341942" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento10}</var>
+<arg>accessibility_id=multiply</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.342943" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento10}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.342943" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento11}</var>
+<arg>accessibility_id=6</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.342943" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento11}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.342943" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento12}</var>
+<arg>accessibility_id=equals</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.342943" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento12}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.342943" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento13}</var>
+<arg>accessibility_id=45</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.343937" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento13}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.343937" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento14}</var>
+<arg>accessibility_id=divide</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.343937" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento14}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.343937" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento15}</var>
+<arg>accessibility_id=5</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.343937" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento15}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.344933" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${elemento16}</var>
+<arg>accessibility_id=equals</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.344933" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<arg>${elemento16}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="NOT RUN" start="2024-07-04T17:00:09.344933" elapsed="0.000000"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-07-04T17:00:09.345930" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-07-04T17:00:09.345930" elapsed="0.001055">No application is open</status>
+</kw>
+<msg time="2024-07-04T17:00:09.347985" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-07-04T17:00:09.348230" level="FAIL">No application is open</msg>
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="FAIL" start="2024-07-04T17:00:09.344933" elapsed="0.003297">No application is open</status>
+</kw>
+<status status="FAIL" start="2024-07-04T17:00:08.393624" elapsed="0.955602">WebDriverException: Message: Verification failed for: storage:filename=Calculator_8.4 (503542421)_APKPure.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2c538ec0]
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" start="2024-07-04T17:00:08.047328" elapsed="1.303892"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Calculadora">Calculadora</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-04T17:00:09.335716" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-07-04T17:00:09.347985" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>

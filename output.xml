@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-04T16:21:06.829738" rpa="false" schemaversion="5">
+<suite id="s1" name="Calculadora Po" source="c:\Iterasys\Teste Mobile - Robot Framework\tests\mobile\calculadora_po.robot">
+<test id="s1-t1" name="TC01" line="15">
+<kw name="Open Application" owner="AppiumLibrary" type="SETUP">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-07-04T16:21:08.427772" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-07-04T16:21:08.426269" elapsed="0.013322">No application is open</status>
+</kw>
+<msg time="2024-07-04T16:21:08.441595" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-07-04T16:21:08.443583" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=Calculator_8.4 (503542421)_APKPure.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX3808eb36]
+</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=Android</arg>
+<arg>appium:platformVersion=9.0</arg>
+<arg>appium:deviceName=Samsung Galaxy S9 FHD GoogleAPI Emulator</arg>
+<arg>appium:deviceOrientation=portrait</arg>
+<arg>appium:app=storage:filename=Calculator_8.4 (503542421)_APKPure.apk</arg>
+<arg>appium:appPackage=com.google.android.calculator</arg>
+<arg>appium:appActivity=com.android.calculator2.Calculator</arg>
+<arg>browserName=</arg>
+<arg>appium:ensureWebviewsHavePages=${True}</arg>
+<arg>appium:nativeWebScreenshot=${True}</arg>
+<arg>appium:newCommandTimeout=${3600}</arg>
+<arg>appium:connectHardwareKeyboard=${True}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2024-07-04T16:21:07.456979" elapsed="0.989593">WebDriverException: Message: Verification failed for: storage:filename=Calculator_8.4 (503542421)_APKPure.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX3808eb36]
+</status>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-07-04T16:21:08.451951" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-07-04T16:21:08.448720" elapsed="0.005223">No application is open</status>
+</kw>
+<msg time="2024-07-04T16:21:08.455937" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-07-04T16:21:08.458471" level="FAIL">No application is open</msg>
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="FAIL" start="2024-07-04T16:21:08.447573" elapsed="0.012897">No application is open</status>
+</kw>
+<status status="FAIL" start="2024-07-04T16:21:07.454545" elapsed="1.006921">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=Calculator_8.4 (503542421)_APKPure.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX3808eb36]
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" start="2024-07-04T16:21:06.844500" elapsed="1.620204"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Calculadora Po">Calculadora Po</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-04T16:21:08.441595" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-07-04T16:21:08.455937" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
